@@ -1,0 +1,219 @@
+body {
+	margin:0 auto;
+	background-color: black;
+}
+
+/* background */
+
+.bg {
+	position:absolute;
+	z-index:-1;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background:url("../images/background") fixed;
+	background-size:cover;
+	background-position: center center;
+	opacity:0.5;
+	width:auto;
+}
+
+.container {
+	position:relative;
+	z-index:1;
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	font-family: "Quicksand";
+}
+
+header{
+    
+	border-bottom: solid 1px #CCCCCC;
+	width: 1100px;
+
+	
+}
+
+/* navbar */
+
+.nav ul {
+	display:flex;
+	justify-content: center;
+
+}
+
+.nav li {
+	list-style: none;
+	margin-right: 50px;
+	padding-top: 30px;
+
+}
+
+.nav a {
+	color:rgba(255, 255, 255, 0.5);
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.nav a:hover {
+	color:rgba(255, 255, 255, 1);
+}
+
+.nav #here {
+	color:rgba(255, 255, 255, 1);
+}
+
+/* big title */
+
+.title {
+	color:rgba(255, 255, 255, 1);
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	/*margin-top: 200px; A copier uniquement sur le css home*/
+}
+
+.title h1 {
+	font-size: 70px;
+	margin-bottom: 0;
+	font-weight: normal;
+}
+
+.title h2 {
+	
+	font-size:25px;
+	font-weight: bolder;
+}
+
+/* audio */
+
+.audio {
+	width:100%;
+  	position: fixed;
+  	bottom: 0;
+}
+
+audio {
+	width:100%;
+}
+
+/*TEXT*/
+
+
+#imgbio {
+
+	margin-top: 40px;
+} 
+
+
+
+
+.text p {
+
+	width: 800px;
+	font-family: "Quicksand";
+	color: #CCCCCC;
+	font-weight: bolder;
+
+}
+
+
+/*BOTTOM*/
+
+
+
+.bottompage {
+
+    
+	display: flex;
+	justify-content: center;
+    border-top: solid 1px #CCCCCC;
+	padding-top: 25px;
+	width: 1100px;
+	height: 500px;
+	margin-top: 50px;
+	font-family: "Quicksand";
+	
+    
+
+}
+
+#description {
+
+display: inline-block;
+width: 23%;
+position: absolute;
+left: 5px;
+margin-left: 200px;
+
+}
+
+#CD {
+
+width: 25%;
+margin-left: 350px;
+
+}
+
+
+#post {
+
+	width: 25%;
+	margin-left: 100px;
+	color: #CCCCCC;
+
+}
+
+
+h3 {
+
+  font-size: 15px;
+  color: white;
+  font-weight: bolder;
+
+}
+
+.bottompage p {
+
+	color: #CCCCCC;
+	font-weight: bolder;
+
+}
+
+
+
+/* icone social */
+
+@font-face {
+    font-family: '../monosocialiconsfont-master/Mono Social Icons Font';
+    src: url('../monosocialiconsfont-master/MonoSocialIconsFont-1.10.eot');
+    src: url('../monosocialiconsfont-master/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+         url('../monosocialiconsfont-master/MonoSocialIconsFont-1.10.woff') format('woff'),
+         url('../monosocialiconsfont-master/MonoSocialIconsFont-1.10.ttf') format('truetype'),
+         url('../monosocialiconsfont-master/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+    src: url('../monosocialiconsfont-master/MonoSocialIconsFont-1.10.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.symbol, a.symbol:before {
+    font-family: '../monosocialiconsfont-master/Mono Social Icons Font';
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+a.symbol:before {
+    content: attr(title);
+    margin-right: 0.3em;
+    font-size: 130%;
+}
