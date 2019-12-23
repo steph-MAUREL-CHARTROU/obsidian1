@@ -24,7 +24,7 @@ body {
 	z-index:1;
 	display:flex;
 	flex-direction:column;
-	align-items: center;
+	align-items: center;background:url("background") fixed;
 	font-family: "Quicksand";
 }
 
@@ -45,7 +45,7 @@ header{
 }
 
 .nav li {
-	list-style: none;
+	list-style: none;background:url("background") fixed;
 	margin-right: 50px;
 	padding-top: 30px;
 
