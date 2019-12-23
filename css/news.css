@@ -1,0 +1,376 @@
+/* GRENERAL */
+
+body {
+	margin:0 auto;
+	background-color: black;
+}
+
+.bg {
+	position:absolute;
+	z-index:-1;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background:url("../images/background") fixed;
+	background-size: cover;
+	background-position: center center;
+	opacity:0.5;
+	width:
+}
+
+.container {
+	position:relative;
+	z-index:1;
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	font-family: "Quicksand";
+}
+
+header{
+    
+	border-bottom: solid 1px #CCCCCC;
+	width: 1100px;
+
+	
+}
+
+
+
+/* navbar */
+
+.nav ul {
+	display:flex;
+	justify-content: center;
+}
+
+.nav li {
+	list-style: none;
+	margin-right: 50px;
+	padding-top: 30px;
+}
+
+.nav a {
+	color:rgba(255, 255, 255, 0.5);
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.nav a:hover {
+	color:rgba(255, 255, 255, 1);
+}
+
+.nav #here {
+	color:rgba(255, 255, 255, 1);
+}
+
+/* big title */
+
+.title {
+	color:rgba(255, 255, 255, 1);
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	/*margin-top: 200px; A copier uniquement sur le css home*/
+}
+
+.title h1 {
+	font-size: 70px;
+	margin-bottom: 0;
+	font-weight: normal;
+}
+
+.title h2 {
+	color: white;
+	font-size:25px;
+	font-weight: normal;
+	padding-top: 20px;
+}
+
+/* audio */
+
+.audio {
+	width:100%;
+  	position: fixed;
+  	bottom: 0;
+}
+
+audio {
+	width:100%;
+}
+
+/*TEXT*/
+
+.text {
+
+	display: flex;
+	justify-content: start;
+	width: 1100px;
+	color: white;
+	font-weight: bold;
+	font-family: "Quicksand";
+	margin-top: 60px;
+
+}
+
+.text .textleft,.textright p {
+
+     font-size: 16px;
+     color:rgba(255, 255, 255, 0.5);
+
+}
+
+
+
+.textleft {
+
+	width: 700px;
+	height: auto;
+	padding-right: 50px;
+	border-bottom: solid 1px #CCCCCC;
+	padding-bottom: 20px;
+
+}
+
+.textleft p {
+
+	margin-top: 30px;
+}
+
+.text .textleft span {
+
+	color: white;
+	font-size: 13px;
+}
+
+.textleft a {
+
+	color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+.text .textright span {
+
+	color:rgba(255, 255, 255, 0.5);
+	font-size: 13px;
+
+}
+
+
+
+
+
+
+h4 {
+
+	font-size: 25px;
+	color: white;
+}
+
+
+
+h5 {
+
+	font-weight: bolder;
+	font-size: 15px;
+}
+
+h6 {
+
+     font-size: 15px;
+
+}
+
+input {
+
+	margin-top: 30px;
+	border: solid 0.3px; 
+	color:rgba(255, 255, 255, 0.5); 
+	background-color: rgba(0, 0, 0, 0.3);
+	height: 25px;
+	width: 300px;
+ 
+}
+
+#album1 {
+
+	margin-top: 30px;
+
+
+}
+
+.button {
+
+	display: flex;
+	margin-left:-1000px;
+	margin-top: 20px;
+	
+
+
+
+}
+
+#button1, #button2 {
+
+	width: 40px;
+	height: 40px;
+	margin: 5px;
+
+
+}
+
+#button1 {
+
+	color:rgba(255, 255, 255, 0.5);
+	background-color :#626262;
+	border: none;
+	font-size: 15px;
+}
+
+#button2 {
+
+	background-color: rgba(0, 0, 0, 0.3);
+	border: 1px solid rgba(255, 255, 255, 0.5)  ;
+	color: rgba(255, 255, 255, 0.5); 
+
+
+}
+
+
+
+
+/*BOTTOM*/
+
+
+
+.bottompage {
+
+    
+	display: flex;
+    border-top: solid 1px #CCCCCC;
+	padding-top: 25px;
+	width: 1100px;
+	height: 500px;
+	margin-top: 15px;
+	font-family: "Quicksand";
+	margin-left: : -100px;
+	
+    
+
+}
+
+#description {
+
+display: inline-block;
+width: 400px;
+
+}
+
+#CD {
+
+width: 25%;
+
+
+}
+
+
+#post {
+
+	width: 25%;
+	margin-left: 100px;
+	color: #CCCCCC;
+
+}
+
+#post br{
+
+
+}
+
+
+h3 {
+
+  font-size: 15px;
+  color: white;
+  font-weight: bolder;
+
+}
+
+.bottompage p {
+
+	color: #CCCCCC;
+	font-weight: bolder;
+
+}
+
+
+
+/* icone social */
+
+@font-face {
+    font-family: 'monosocialiconsfont-master/Mono Social Icons Font';
+    src: url('monosocialiconsfont-master/MonoSocialIconsFont-1.10.eot');
+    src: url('monosocialiconsfont-master/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+         url('monosocialiconsfont-master/MonoSocialIconsFont-1.10.woff') format('woff'),
+         url('monosocialiconsfont-master/MonoSocialIconsFont-1.10.ttf') format('truetype'),
+         url('monosocialiconsfont-master/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+    src: url('monosocialiconsfont-master/MonoSocialIconsFont-1.10.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.symbol, a.symbol:before {
+    font-family: '../monosocialiconsfont-master/Mono Social Icons Font';
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+a.symbol:before {
+    content: attr(title);
+    margin-right: 0.3em;
+    font-size: 130%;
+}
+
+/* footer social */
+
+.social {
+	height:300px;
+}
+
+.social ul {
+	display:flex;
+}
+
+.social li {
+	list-style: none;
+}
+
+.social a {
+	color:white;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+.social p {
+	color:white;
+	text-align: center;
+}
+
+
+/* icone social */
+
+a.symbol: before {
+    content: attr(title);
+    margin-right: 0.3em;
+    font-size: 130%;
+}
